@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>R$H</title>
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-
-  <body>
-  <header>
-      <nav>
-        <a href="#about">About Me</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="icon" type="image/png" href="./rsh.png">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Case Studies</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Recent Work</a></li>
+        <li><a href="#">Get In Touch</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-behance"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
     </nav>
   </header>
-  <section id="welcome">
-    <h2>Welcome!</h2>
-    <p>Thank you for visiting my portfolio!
-        Feel free to explore the sections below to learn more about me, my experience, and the skills I possess.
-        Click on any link in the menu to jump to the section that interests you the most!</p>
+
+  <main class="hero-section">
+    <div class="hero-content">
+      <h1>RANDRIANIRINA Stephan Hernandez</h1>
+      <p>Aspiring IT enthusiast diving into systems, networks, and cybersecurity, with a passion for Linux and open-source applications.</p>
+      <a href="#" class="cta-button">Let’s get started &nbsp; ›</a>
+    </div>
+    <div class="hero-image">
+      <img src="./IMG-20250309-WA0000.jpg" alt="Profile photo" />
+    </div>
+  </main>
+
+  <section class="brands">
+    <p>Worked with</p>
+    <div class="brand-logos">
+      <img src="clickup-logo.png" alt="ClickUp" />
+      <img src="dropbox-logo.png" alt="Dropbox" />
+      <img src="paychex-logo.png" alt="Paychex" />
+      <img src="elastic-logo.png" alt="Elastic" />
+      <img src="stripe-logo.png" alt="Stripe" />
+    </div>
   </section>
 
-  <section id='about'>
-    <h2>About Me</h2>
-    <p>My name is RANDRIANIRINA Stephan Hernandez.
-        I'm a student at ENI, an aspiring IT enthusiast diving into systems, networks, and cybersecurity,
-        with a passion for Linux and open-source applications.</p>
-  </section>
-
-  <section id='experience'>
-    <h2>Experience</h2>
-    <p>Here you can add details about your work experience, internships, or projects.</p>
-  </section>
-
-  <section id='skills'>
-    <h2>Skills</h2>
-    <p>List your skills here, such as programming languages, tools, and technologies you are familiar with.</p>
-</section>
-  </body>
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/yourkitcode.js" crossorigin="anonymous"></script>
+</body>
 </html>
