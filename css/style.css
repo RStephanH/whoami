@@ -1,28 +1,104 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0e0e0e;
     color: white;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-nav {
-    margin: 10px 0;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
+  }
+  
+  .navbar {
+    background-color: #1a1a1a;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links li a {
+    color: #ccc;
     text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ccc;
-}
+    font-weight: 500;
+  }
+  
+  .social-icons a {
+    margin-left: 15px;
+    color: #888;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 60px;
+    flex-wrap: wrap;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 14px 26px;
+    background-color: #4cd137;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0 0 15px #4cd13788;
+  }
+  
+  .hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #333;
+  }
+  
+  .brands {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .brands p {
+    color: #aaa;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .brand-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .brand-logos img {
+    width: 100px;
+    opacity: 0.8;
+    background-color: #1a1a1a;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  
